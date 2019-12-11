@@ -1,0 +1,69 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{27E09B24-76E6-4653-8A20-02408B7664BC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution", "Solution", "{F789382D-829E-4D72-B98A-F26FD0BCB9C3}"
+ProjectSection(SolutionItems) = preProject
+	.gitignore = .gitignore
+	LICENSE = LICENSE
+	NuGet.config = NuGet.config
+	Publish.bat = Publish.bat
+	PublishToMyGet.bat = PublishToMyGet.bat
+	README.md = README.md
+EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{6ED2C36C-3F35-415C-A2D8-62DF9E593BE7}"
+ProjectSection(SolutionItems) = preProject
+	build\common.props = build\common.props
+	build\misc.props = build\misc.props
+	build\package.props = build\package.props
+	build\version.props = build\version.props
+	build\common-1-x.props = build\common-1-x.props
+	build\common-2-x.props = build\common-2-x.props
+	build\common-3-x.props = build\common-3-x.props
+	build\version-1-x.props = build\version-1-x.props
+	build\version-3-x.props = build\version-3-x.props
+	build\version-2-x.props = build\version-2-x.props
+EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{2913882F-EC48-4DA7-B861-BC574FE251CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Config.Yaml", "src\Config.Yaml\Config.Yaml.csproj", "{45BDFC61-0C7E-4527-8BBD-58D6679666E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ref.1.x", "src\Ref.1.x\Ref.1.x.csproj", "{4BBC68AF-D105-4845-AB8B-788DD9320163}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ref.2.x", "src\Ref.2.x\Ref.2.x.csproj", "{2C9001E2-B5D9-44D7-9136-AE6A894953FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ref.3.x", "src\Ref.3.x\Ref.3.x.csproj", "{69216D19-91B8-4400-A07E-57B3079653E1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6ED2C36C-3F35-415C-A2D8-62DF9E593BE7} = {F789382D-829E-4D72-B98A-F26FD0BCB9C3}
+		{45BDFC61-0C7E-4527-8BBD-58D6679666E7} = {27E09B24-76E6-4653-8A20-02408B7664BC}
+		{4BBC68AF-D105-4845-AB8B-788DD9320163} = {27E09B24-76E6-4653-8A20-02408B7664BC}
+		{2C9001E2-B5D9-44D7-9136-AE6A894953FE} = {27E09B24-76E6-4653-8A20-02408B7664BC}
+		{69216D19-91B8-4400-A07E-57B3079653E1} = {27E09B24-76E6-4653-8A20-02408B7664BC}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{45BDFC61-0C7E-4527-8BBD-58D6679666E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45BDFC61-0C7E-4527-8BBD-58D6679666E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45BDFC61-0C7E-4527-8BBD-58D6679666E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45BDFC61-0C7E-4527-8BBD-58D6679666E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BBC68AF-D105-4845-AB8B-788DD9320163}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BBC68AF-D105-4845-AB8B-788DD9320163}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BBC68AF-D105-4845-AB8B-788DD9320163}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BBC68AF-D105-4845-AB8B-788DD9320163}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C9001E2-B5D9-44D7-9136-AE6A894953FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C9001E2-B5D9-44D7-9136-AE6A894953FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C9001E2-B5D9-44D7-9136-AE6A894953FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C9001E2-B5D9-44D7-9136-AE6A894953FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69216D19-91B8-4400-A07E-57B3079653E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69216D19-91B8-4400-A07E-57B3079653E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69216D19-91B8-4400-A07E-57B3079653E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69216D19-91B8-4400-A07E-57B3079653E1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

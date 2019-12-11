@@ -1,0 +1,12 @@
+<Project>
+	<PropertyGroup Label="Package">
+		<Product>Alexinea.Extensions.Configuration.Yaml</Product>
+		<Authors>AlexLEWIS</Authors>
+		<RepositoryUrl>https://github.com/alexinea/Extensions.Configuration.Yaml</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<PackageProjectUrl>https://github.com/alexinea/Extensions.Configuration.Yaml</PackageProjectUrl>
+		<PackageIcon>yaml-logo.png</PackageIcon>
+		<PackageLicenseFile>LICENSE</PackageLicenseFile>
+		<PackageTags>configuration;yaml</PackageTags>
+	</PropertyGroup>
+</Project>

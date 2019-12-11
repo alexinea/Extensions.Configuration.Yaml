@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <Import Project="..\..\build\common-1-x.props" />
+
+    <PropertyGroup>
+        <TargetFramework>net451</TargetFramework>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <AssemblyName>Alexinea.Extensions.Configuration.Yaml</AssemblyName>
+        <PackageId>Alexinea.Extensions.Configuration.Yaml</PackageId>
+        <Description>Yaml configuration provider implementation for Microsoft.Extensions.Configuration.</Description>
+    </PropertyGroup>
+
+    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+        <DocumentationFile>Alexinea.Extensions.Configuration.Yaml.xml</DocumentationFile>
+    </PropertyGroup>
+
+    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+        <DocumentationFile>Alexinea.Extensions.Configuration.Yaml.xml</DocumentationFile>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Cosmos.Serialization.YamlDotNet" Version="0.1.2-alpha1-100002" />
+        <PackageReference Include="Microsoft.Extensions.Configuration" Version="1.1.2" />
+        <PackageReference Include="Microsoft.Extensions.Configuration.FileExtensions" Version="1.1.2" />
+        <PackageReference Include="NETStandard.Library" Version="1.6.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <Compile Include="../Config.Yaml/**/*.cs" Exclude="../Config.Yaml/obj/**/*" />
+    </ItemGroup>
+
+</Project>
