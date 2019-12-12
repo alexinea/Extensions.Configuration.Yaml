@@ -10,7 +10,6 @@ for /R "nuget_pub" %%s in (*) do (
     del %%s
 )
 
-::Standard
 dotnet pack src/Ref.1.x -c Release -o nuget_pub
 dotnet pack src/Ref.2.x -c Release -o nuget_pub
 dotnet pack src/Ref.3.x -c Release -o nuget_pub

@@ -21,7 +21,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Cosmos.Serialization.YamlDotNet" Version="0.1.2-alpha1-100002" />
+        <PackageReference Include="YamlDotNet" Version="8.0.0" />
         <PackageReference Include="Microsoft.Extensions.Configuration" Version="3.1.0" />
         <PackageReference Include="Microsoft.Extensions.Configuration.FileExtensions" Version="3.1.0" />
     </ItemGroup>
