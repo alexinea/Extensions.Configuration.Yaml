@@ -13,9 +13,9 @@ namespace Alexinea.Extensions.Configuration.Yaml {
         public YamlStreamConfigurationProvider(YamlStreamConfigurationSource source) : base(source) { }
 
         /// <summary>
-        /// Loads json configuration key/values from a stream into a provider.
+        /// Loads yaml configuration key/values from a stream into a provider.
         /// </summary>
-        /// <param name="stream">The json <see cref="Stream"/> to load configuration data from.</param>
+        /// <param name="stream">The yaml <see cref="Stream"/> to load configuration data from.</param>
         public override void Load(Stream stream) {
             Data = YamlConfigurationFileParser.Parse(stream);
         }

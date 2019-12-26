@@ -66,7 +66,7 @@
             <summary>
             Loads yaml configuration key/values from a stream into a provider.
             </summary>
-            <param name="stream">The json <see cref="T:System.IO.Stream"/> to load configuration data from.</param>
+            <param name="stream">The yaml <see cref="T:System.IO.Stream"/> to load configuration data from.</param>
         </member>
         <member name="T:Alexinea.Extensions.Configuration.Yaml.YamlConfigurationSource">
             <summary>

@@ -80,9 +80,9 @@
         </member>
         <member name="M:Alexinea.Extensions.Configuration.Yaml.YamlStreamConfigurationProvider.Load(System.IO.Stream)">
             <summary>
-            Loads json configuration key/values from a stream into a provider.
+            Loads yaml configuration key/values from a stream into a provider.
             </summary>
-            <param name="stream">The json <see cref="T:System.IO.Stream"/> to load configuration data from.</param>
+            <param name="stream">The yaml <see cref="T:System.IO.Stream"/> to load configuration data from.</param>
         </member>
         <member name="T:Alexinea.Extensions.Configuration.Yaml.YamlStreamConfigurationSource">
             <summary>
@@ -111,7 +111,7 @@
             <summary>
             Loads yaml configuration key/values from a stream into a provider.
             </summary>
-            <param name="stream">The json <see cref="T:System.IO.Stream"/> to load configuration data from.</param>
+            <param name="stream">The yaml <see cref="T:System.IO.Stream"/> to load configuration data from.</param>
         </member>
         <member name="T:Alexinea.Extensions.Configuration.Yaml.YamlConfigurationSource">
             <summary>
