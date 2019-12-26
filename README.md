@@ -1,6 +1,6 @@
 <p>
     <a href="https://alexinea.com" target="_blank" title="YAML Configuration Provider">
-        <img width="100" src="./misc/images/yaml-logo.png" />
+        <img width="100" src="./msic/images/yaml-logo.png" />
     </a>
 </p>
 
