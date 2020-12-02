@@ -6,7 +6,8 @@
 
 # YAML Configuration Provider
 
-[![NuGet](https://img.shields.io/nuget/v/Alexinea.Extensions.Configuration.Yaml.svg)](https://nuget.org/packages/Alexinea.Extensions.Configuration.Yaml) [![Nuget](https://img.shields.io/nuget/dt/Alexinea.Extensions.Configuration.Yaml.svg)](https://nuget.org/packages/Alexinea.Extensions.Configuration.Yaml)
+[![NuGet](https://img.shields.io/nuget/v/Alexinea.Extensions.Configuration.Yaml.svg)](https://nuget.org/packages/Alexinea.Extensions.Configuration.Yaml) 
+[![Nuget](https://img.shields.io/nuget/dt/Alexinea.Extensions.Configuration.Yaml.svg)](https://nuget.org/packages/Alexinea.Extensions.Configuration.Yaml)
 
 A Yaml format configuration provider for Microsoft.Extensions.Configuration.
 
