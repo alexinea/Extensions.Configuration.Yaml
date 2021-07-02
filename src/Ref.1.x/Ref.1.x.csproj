@@ -12,16 +12,12 @@
         <Description>Yaml configuration provider implementation for Microsoft.Extensions.Configuration.</Description>
     </PropertyGroup>
 
-    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-        <DocumentationFile>Alexinea.Extensions.Configuration.Yaml.xml</DocumentationFile>
-    </PropertyGroup>
-
     <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
         <DocumentationFile>Alexinea.Extensions.Configuration.Yaml.xml</DocumentationFile>
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="YamlDotNet" Version="8.0.0" />
+        <PackageReference Include="YamlDotNet" Version="11.2.0" />
         <PackageReference Include="Microsoft.Extensions.Configuration" Version="1.1.2" />
         <PackageReference Include="Microsoft.Extensions.Configuration.FileExtensions" Version="1.1.2" />
         <PackageReference Include="NETStandard.Library" Version="1.6.1" />

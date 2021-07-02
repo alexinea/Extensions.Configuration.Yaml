@@ -3,17 +3,9 @@
     <Import Project="..\..\build\common.props" />
 
     <PropertyGroup>
-        <TargetFrameworks>netcoreapp3.1;netstandard2.0;net451</TargetFrameworks>
-    </PropertyGroup>
-
-    <PropertyGroup>
         <AssemblyName>Alexinea.Extensions.Configuration.Yaml</AssemblyName>
         <PackageId>Alexinea.Extensions.Configuration.Yaml</PackageId>
         <Description>Yaml configuration provider implementation for Microsoft.Extensions.Configuration.</Description>
-    </PropertyGroup>
-
-    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-        <DocumentationFile>Alexinea.Extensions.Configuration.Yaml.xml</DocumentationFile>
     </PropertyGroup>
 
     <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -21,7 +13,12 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="YamlDotNet" Version="8.0.0" />
+        <PackageReference Include="YamlDotNet" Version="11.2.0" />
+    </ItemGroup>
+
+    <ItemGroup Condition="'$(TargetFramework)'=='net5.0'">
+        <PackageReference Include="Microsoft.Extensions.Configuration" Version="5.0.0" />
+        <PackageReference Include="Microsoft.Extensions.Configuration.FileExtensions" Version="5.0.0" />
     </ItemGroup>
 
     <ItemGroup Condition="'$(TargetFramework)'=='netcoreapp3.1'">
